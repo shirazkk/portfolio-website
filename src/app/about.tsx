@@ -1,10 +1,11 @@
+import Image from "next/image";
 export default function About(){
     return(
         <section id="about" className="bg-slate-950 h-screen">
         <div className="h-screen flex justify-center items-center gap-6">
         {/* left-section-img */}
           <div className="w-1/4">
-            <img className="w-[400px] object-center  rounded-full"  src="assist/profile.jpeg" alt="" />
+            <Image width={400} height={400} className=" object-center  rounded-full"  src="/assist/profile.jpeg" alt="" />
           </div>
           {/* right-section */}
           <div className="w-2/4 flex justify-center items-center ">
