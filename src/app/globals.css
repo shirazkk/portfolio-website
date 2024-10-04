@@ -5,4 +5,39 @@
 
 html{
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
+
+#left , #right{
+    /* opacity: 0;
+    transform: translateX(100%); */
+    animation: slideInLeft 1.5s forwards;
+}
+
+#left{
+    transform: translateX(-100%);
+    animation: slideInRight 1.5s forwards;
+}
+
+@keyframes slideInLeft {
+    from{
+      transform: translateX(100%);
+      opacity: 0;
+    }
+
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes slideInRight {
+    from{
+        transform: translateX(-100%);
+        opacity: 0;
+      }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }

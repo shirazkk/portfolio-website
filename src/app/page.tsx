@@ -10,7 +10,7 @@ export default function Home() {
     <div>
       <main className="bg-slate-200 flex w-full h-screen ">
         {/* left-section */}
-        <div className=" w-2/4 flex justify-center items-center">
+        <div className=" w-2/4 flex justify-center items-center" id="left">
           <div className="w-10/12 h-3/4 relative top-20 p-5">
             <h1 className="py-3 text-5xl font-bold ">Hello, I'm Shiraz Ali</h1>
             <h3 className="py-2 text-3xl font-semibold">Front-End Developer</h3>
@@ -26,7 +26,7 @@ export default function Home() {
         </div>
 
         {/* right-section */}
-        <div className=" w-2/4 h-full flex items-center justify-center">
+        <div className=" w-2/4 h-full flex items-center justify-center" id="right">
           <img
             className="w-[400px] object-center rounded-full"
             src="assist/profile.jpeg"

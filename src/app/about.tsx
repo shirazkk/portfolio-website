@@ -9,7 +9,7 @@ export default function About(){
           {/* right-section */}
           <div className="w-2/4 flex justify-center items-center ">
           <div className="h-4/5 relative m-5">
-            <a href="" className="font-extrabold text-5xl">
+            <a href="#" className="font-extrabold text-5xl">
               <h1 className="text-gray-50">About <span className="text-blue-700 ">Me</span></h1>
             </a>
             <p className="py-3 font-semibold text-gray-50"> 
