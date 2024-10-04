@@ -27,9 +27,12 @@ export default function Home() {
 
         {/* right-section */}
         <div className=" w-2/4 h-full flex items-center justify-center" id="right">
-          <img
-            className="w-[400px] object-center rounded-full"
-            src="assist/profile.jpeg"
+        
+          <Image
+            className=" object-center rounded-full"
+            width={400}
+            height={400}
+            src="/assist/profile.jpeg"
             alt="Profile Image"
           />
         </div>
